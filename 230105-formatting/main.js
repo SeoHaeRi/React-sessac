@@ -23,3 +23,4 @@ const obj = {
 const copyObj = { ...obj, lupy: 'lupy' };
 console.log(copyObj);
 console.log(obj === copyObj);
+// 
