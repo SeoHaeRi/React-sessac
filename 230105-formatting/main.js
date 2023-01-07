@@ -1,7 +1,7 @@
 // @ts-check
-let x = 1;
-x = 2;
-console.log(x);
+let num = 1;
+num = 2;
+console.log(num);
 
 // const str = 'Hello';
 // const num = Math.log(str);
@@ -23,4 +23,4 @@ const obj = {
 const copyObj = { ...obj, lupy: 'lupy' };
 console.log(copyObj);
 console.log(obj === copyObj);
-// 
+//
