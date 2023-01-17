@@ -2,6 +2,7 @@ import './App.css';
 import ExUnmount from './components/ExUnmount';
 import ShowTimer from './components/ShowTimer';
 import TestUseEffect from './components/TestUseEffect';
+import UseEffectFetch from './components/UseEffectFetch';
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <ShowTimer />
       <br />
       <ExUnmount />
+
+      <UseEffectFetch />
     </div>
   );
 }
